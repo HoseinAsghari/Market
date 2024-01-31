@@ -24,5 +24,20 @@ We have developed our Ap-Project 5 parts:\
 at first let take look at what do we have in our src dolder:\
 App.java:\
 it is our main class and only and only this class has main method . so it is the gate of our application. it means if we want to tun this we must at first run App.java\
-\
+\GrApplication.java:\
+it makes a GUI for us to register , order and feedback.\
+\after we go th Customer package :\
+\Address.java:\
+\which only has some fields and a cunstructor to initialize those fields.\
+\Person.java:\
+\it is an abstract class with only some fields that our user cases extends it.\
+\Customer.java :\
+\this class extends Person.java and consists of some field and method related to its salary. and finaly a file as history of his wages from Store.\
+\CustomerRegister.java :\
+\it does nothing except of make an instance of Gr.java.\
+\Gr.java :\
+\ it makes a GUI to register as Customer.\
+\Order.java :\
+\:
+
 
