@@ -6,4 +6,9 @@ We have developed our Ap-Project 5 parts:\
  we made some user cases and use cases as an objects and some descriptions corresponding.and you can see in the "ap-project-phase1-99107838.pdf"\
 3-part:\
  we made Class Diagram and then specify Persistant classes as entity.and you can see in the "ap-project-phase2-99107838.pdf"\
+ \
+ \
+ ![phase2](/assets/img/ap-project-phase2-99107838.png "phase2")
+ \
+ \
 4
