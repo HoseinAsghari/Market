@@ -1,6 +1,12 @@
 package Customer;
 import Store.Store;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+//////////////////////
+@Entity
 public class Customer extends Person{
+    @Id
     String path;
     public Customer(String country,String county,String city,String state,String postalcode){
         address.setter(country, county, city, state, postalcode);
