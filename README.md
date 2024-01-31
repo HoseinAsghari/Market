@@ -26,7 +26,7 @@ App.java:\
 it is our main class and only and only this class has main method . so it is the gate of our application. it means if we want to tun this we must at first run App.java\
 \GrApplication.java:\
 it makes a GUI for us to register , order and feedback.\
-\after we go th Customer package :\
+\afterwards we go to Customer package :\
 \Address.java:\
 \which only has some fields and a cunstructor to initialize those fields.\
 \Person.java:\
@@ -38,6 +38,18 @@ it makes a GUI for us to register , order and feedback.\
 \Gr.java :\
 \ it makes a GUI to register as Customer.\
 \Order.java :\
-\:
+\after registration of customers and Stores you can go to this class and make an order as a customer from your desired store and then it makes \
+changes in files in directory Manager\Foods\* . in this directory we have some information about menu of each stores.\
+as well , in directory Manager\* we have an important files named "Storeslogin ",Storeslogi "Customerslogin" and "FeedbacksOfUsers" inwhich they give us persistent\
+information about database.
+\then we go to Manager package :\
+\ 
+\in directory Manager\Foods\* . in this directory we have some information about menu of each stores.\
+as well , in directory Manager\* we have an important files named "Storeslogin ",Storeslogi "Customerslogin" and "FeedbacksOfUsers" inwhich they give us persistent\
+information about database.\
+\as well we have class "Feedback.java" which is very simple class only to records complaints from customers or store owners.\
+\then we go to Store package :\
+
+
 
 
