@@ -1,0 +1,5 @@
+Food		Number		price
+qorme		8		50
+egg		11		50
+polo		20		0
+flafel		7		20

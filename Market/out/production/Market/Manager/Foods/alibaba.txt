@@ -1,0 +1,5 @@
+Food		Number		price
+pizza		13		80
+juje		10		80
+ash		20		20
+kebab		10		100
