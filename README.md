@@ -15,4 +15,14 @@ We have developed our Ap-Project 5 parts:\
    then we made a sequence diagram . because of that edrawmax do not have User interface Shape we could not implement it . and you can see in the "ap-project-phase2-99107838.pdf"\
    \and the image is as follows:\
    \
-   \![phase3](ap-project-phase3-99107838.jpg)
+   \
+![phase3](ap-project-phase3-99107838.jpg)
+\
+\
+\and finally we used Java to implements our Projects:\
+\
+at first let take look at what do we have in our src dolder:\
+App.java:\
+it is our main class and only and only this class has main method . so it is the gate of our application. it means if we want to tun this we must at first run App.java\
+\
+
