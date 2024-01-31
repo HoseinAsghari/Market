@@ -26,6 +26,7 @@ at first let take look at what do we have in our src dolder:\
 it is our main class and only and only this class has main method . so it is the gate of our application. it means if we want to tun this we must at first run App.java\
 # GrApplication.java:
 it makes a GUI for us to register , order and feedback.\
+![phase2](scapp.png)
 # afterwards we go to Customer package :
 # Address.java:
 which only has some fields and a cunstructor to initialize those fields.\
@@ -38,18 +39,23 @@ this class is a persistant class and has shown with @Entity.
 it does nothing except of make an instance of Gr.java.\
 # Gr.java :
 it makes a GUI to register as Customer.\
+![phase2](sccus.png)
 # Order.java :
 after registration of customers and Stores you can go to this class and make an order as a customer from your desired store and then it makes \
 changes in files in directory Manager\Foods\* . in this directory we have some information about menu of each stores.\
 as well , in directory Manager\* we have an important files named "Storeslogin.txt ", "Customerslogin.txt" and "FeedbacksOfUsers.txt" inwhich they give us persistent\
 information about database.\
+![phase2](scord.png)
 # then we go to Manager package :
 
 in directory Manager\Foods\* . in this directory we have some information about menu of each stores.\
 as well , in directory Manager\* we have an important files named "Storeslogin.txt ", "Customerslogin.txt" and "FeedbacksOfUsers.txt" inwhich they give us persistent\
 information about database.\
-as well we have class "Feedback.java" which is very simple class only to records complaints from customers or store owners.\
-this class is a persistant class and has shown with @Entity.
+as well we have class :\
+# "Feedback.java:" 
+which is very simple class only to records complaints from customers or store owners.\
+this class is a persistant class and has shown with @Entity.\
+![phase2](scfd.png)
 # then we go to Store package :
 # Cook.java
 this class extend "Person.java" and has some methods and fields related to salary of this person.\
@@ -68,7 +74,7 @@ distance between these two objects .\
 it does not do anything special. it just makes an instance from Grstore.java.\
  # Grstore.java:
 it makes a GUI for us to register an Store and calculate the salary of Cook.this class is very important and it is very complicated with many graphical objects.\
-
+![phase2](scst.png)
 # Orderstate.java:
 this class is production of all other classes and conrains only field  and make for us a complete list for our order.\
 this class is a persistant class and has shown with @Entity.\
@@ -77,6 +83,6 @@ this class is a persistant class and has shown with @Entity.\
 this class makes a graphical view of "Orderstate.java".\
 it complete for us "Storeslogin.txt ".\
 this class is a persistant class and has shown with @Entity.\
-
+![phase2](scos.png)
 
 
