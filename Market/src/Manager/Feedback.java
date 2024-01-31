@@ -8,7 +8,13 @@ import java.awt.event.MouseEvent;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.FileWriter;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+//////////////////////
+@Entity
 public class Feedback extends JFrame implements ActionListener{
+    @Id
     String complain=null;
     JTextField text1;
     JLabel l2;
