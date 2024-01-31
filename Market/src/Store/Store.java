@@ -6,7 +6,13 @@ import java.io.FileWriter;
 import java.util.HashMap;
 import java.time.LocalTime;
 import java.time.format.DateTimeFormatter;
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+//////////////////////
+@Entity
 public class Store {
+    @Id
     public String name;
     public String password;
     public String phoneNumber;
